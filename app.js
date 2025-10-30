@@ -4,4 +4,4 @@ const positionLat = 12;
 const positionLong = 13;
 
 const range = ((positionLat - addressLat)**2 + (positionLong - addressLong)**2)**0.5;
-console.log("Расстояние равно: ${range}");
+console.log(`Расстояние равно: ${ range }`);
